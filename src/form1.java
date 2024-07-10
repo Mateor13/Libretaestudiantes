@@ -7,6 +7,7 @@ public class form1 extends JFrame {
     private JButton inse;
     private JButton bus;
     private JPanel mainPanel;
+    private JButton cerrar;
 
     public form1() {
         setTitle("Menú Principal");
@@ -27,6 +28,12 @@ public class form1 extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 new form3();
+                dispose();
+            }
+        });
+        cerrar.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
                 dispose();
             }
         });
