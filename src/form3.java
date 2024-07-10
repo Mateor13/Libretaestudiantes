@@ -27,7 +27,7 @@ public class form3 extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String cedula = ced.getText();
-                String url = "jdbc:mysql://localhost:3306/clasepoo";
+                String url = "jdbc:mysql://localhost:3306/clase";
                 String usuario = "root";
                 String clave = "123456";
                 try (Connection con = DriverManager.getConnection(url, usuario, clave)) {

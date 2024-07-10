@@ -29,7 +29,7 @@ public class form2 extends JFrame {
                 String cedula = ci.getText();
                 String nota1 = b1.getText();
                 String nota2 = b2.getText();
-                String url = "jdbc:mysql://localhost:3306/clasepoo";
+                String url = "jdbc:mysql://localhost:3306/clase";
                 String usuario = "root";
                 String clave = "123456";
                 try (Connection con = DriverManager.getConnection(url,usuario,clave)){
