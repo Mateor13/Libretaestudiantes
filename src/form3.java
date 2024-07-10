@@ -48,6 +48,9 @@ public class form3 extends JFrame {
                         setLocationRelativeTo(null);
                     } else {
                         avg.setText("Estudiante no encontrado");
+                        setPreferredSize(new Dimension(500,230));
+                        pack();
+                        setLocationRelativeTo(null);
                     }
                 } catch (SQLException e1) {
                     e1.printStackTrace();
