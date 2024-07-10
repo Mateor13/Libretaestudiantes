@@ -18,7 +18,7 @@ public class form3 extends JFrame {
     public form3() {
         setTitle("Buscar Estudiante");
         setContentPane(menu2);
-        setPreferredSize(new Dimension(500, 200));
+        setPreferredSize(new Dimension(500, 220));
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         pack();
         setVisible(true);
@@ -43,12 +43,12 @@ public class form3 extends JFrame {
                         double noti2 = rs.getDouble("b2");
                         double promedio = (noti1 + noti2) / 2;
                         avg.setText("Promedio: " + String.valueOf(promedio));
-                        setPreferredSize(new Dimension(500,350));
+                        setPreferredSize(new Dimension(500,365));
                         pack();
                         setLocationRelativeTo(null);
                     } else {
                         avg.setText("Estudiante no encontrado");
-                        setPreferredSize(new Dimension(500,230));
+                        setPreferredSize(new Dimension(500,240));
                         pack();
                         setLocationRelativeTo(null);
                     }
