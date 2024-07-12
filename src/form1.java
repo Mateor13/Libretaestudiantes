@@ -13,7 +13,7 @@ public class form1 extends JFrame {
         setTitle("Menú Principal");
         setContentPane(mainPanel);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setPreferredSize(new Dimension(700, 300));
+        setPreferredSize(new Dimension(450, 300));
         pack();
         setVisible(true);
         setLocationRelativeTo(null);

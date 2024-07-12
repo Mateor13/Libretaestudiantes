@@ -55,6 +55,9 @@ public class form3 extends JFrame {
                 } catch (SQLException e1) {
                     e1.printStackTrace();
                     avg.setText("Error al buscar en la Base de Datos");
+                    setPreferredSize(new Dimension(500,250));
+                    pack();
+                    setLocationRelativeTo(null);
                 }
             }
         });

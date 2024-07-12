@@ -44,6 +44,9 @@ public class form2 extends JFrame {
                 }catch(SQLException e1){
                     e1.printStackTrace();
                     resultado.setText("Error al insertar datos");
+                    setPreferredSize(new Dimension(500, 500));
+                    pack();
+                    setLocationRelativeTo(null);
                 }
             }
         });
